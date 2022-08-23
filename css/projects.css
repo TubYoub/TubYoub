@@ -1,61 +1,24 @@
 * {
   font-family: 'M PLUS Code Latin', sans-serif;
-}
-
-#navbar {
-  display: block;
-  background-color: lightgray;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100px;
-  height: 1000px;
-}
-#navbar #home a img{
-  margin: 100px 0px 200px 25px;
-}
-
-#navbar #faq a img{
-  margin: 0px 0px 0px 25px;
-}
-
-#navbar #contact {
-  margin: 200px 0px 100px 25px;
-}
-
-#navbar a {
-  color: black;
-  text-decoration: none;
-}
-#navbar > * {
-  padding: 4px;
+  text-align: justify;
+  line-height: 140%;
 }
 body {
   margin: 0;
 }
-.nav-container:hover #navbar {
-  transform: translateY(0);
+#nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0px 10% 0px 12%
 }
-
-.overlay {
-  position: fixed !important;
-  overflow-y: scroll !important;
-  overscroll-behavior: contain !important;
-  top: 0; right: 0; bottom: 0; left: 0px !important;
+#nav {
+  background-color: lightgray;
+  padding: 4px 0;
+  margin: 0;
 }
-
-
-.overlay p {
-  margin: 10px 20px 10px 120px;
+h3 {
+  margin: 3% 35% 0px 35%;
 }
-.overlay h3 {
-  margin: 10px 20px 10px 120px;
-}
-
-.overlay ul {
-  margin: 10px 20px 10px 120px;
-}
-
-#arrow {
-  margin: 335px 0px 0px 50px !important;
+p {
+  margin: 3% 30% 0px 30%;
 }
