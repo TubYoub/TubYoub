@@ -3,10 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TubYoub</title>
+  <title>-/TubYoub\-</title>
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/contactme.css">
+  <script src="/js/index.js"></script>
+
 
 </head>
 
@@ -25,8 +27,16 @@
       <li>Discord: TubYoub#0069</li>
       <li><a href="https://github.com/TubYoub">GitHub</a></li>
       <li><a href="https://steamcommunity.com/id/TubYoub">Steam</a></li>
-      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-      Wanna play a <a href="dino.html">GAME</a>? glhf
+
+      <div id="dinogame"></div>
+
+      <script type="text/javascript">
+        function ln(){
+          document.getElementById('dinogame').innerHTML='<iframe width="1500" height="700" src="https://dinosaurgame.net" style="-webkit-transform:scale(0.5);-moz-transform-scale(0.5);"></iframe></embed>';
+        }
+      </script>
+      <br><br><br>
+      Play the <input class="hideBtn" type="button" value="Dino Game" onClick="ln();" />
     </ul>
   </ul>
 
