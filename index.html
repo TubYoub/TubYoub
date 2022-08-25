@@ -1,46 +1,55 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
 
-<head>
-  <meta charset="utf-8">
-  <title>-/TubYoub\-</title>
+  <head>
+    <meta charset="utf-8">
+    <title>-/TubYoub\-</title>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500&display=swap" rel="stylesheet">
-  <script src="/js/index.js"></script>
-
-
-</head>
-
-<body>
-  <ul id="nav">
-    <li><a href="index.html "><img src="/img/house.png" height="30"></a></li>
-    <li><a href="projects.html"><img src="/img/project.png" height="30"></a></li>
-    <li><a href="contactme.html"><img src="/img/discord.png" height="30"></a></li>
-    <li><a href="https://search.tubyoub.de"><img src="/img/searchicon.png" height="30"></a></li>
-  </ul>
-
-  <div>
-    <p>
-      Hi, <br> <br>
-      my Name is Jörn, I am from Germany and I am a Student. I currently learn <br>
-      Python and JavaScript. You can see my Projects <a href="projects.html">here</a>. <br>
-      I also like to play games in my free Time for example: Minecraft (5000+h), <br>
-      Valorant (breaks me everytime), Rust (232h), Satisfactory (120h) , Bloons TD6 (126h). <br>
-      I also like to go for a walk with my dogs, go to the gym and sleeping :)
-      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-      More on this site soon
-    </p>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+    <script src="/js/index.js"></script>
 
 
-</div>
+  </head>
+
+  <body>
+    <div class="wrapper" id="nav">
+      <div class="item">
+        <li class="text"><a href="index.html "><img src="/img/house.png" height="30" alt="Start"></a></li>
+      </div>
+      <div class="item">
+        <li class="text"><a href="projects.html"><img src="/img/project.png" height="30" alt="Prjects"></a></li>
+      </div>
+      <div class="item">
+        <li class="text"><a href="stats.html"><img src="/img/stats.png" height="30" alt="Stats"></a></li>
+      </div>
+      <div class="item">
+        <li class="text"><a href="https://search.tubyoub.de"><img src="/img/searchicon.png" height="30" alt="search.tubyoub.de"></a></li>
+      </div>
+    </div>
+    <script>
+      const dragArea = document.querySelector(".wrapper");
+      new Sortable(dragArea, {
+        animation: 350
+      });
+    </script>
+    <div>
+      <p>
+        Hi, <br> <br>
+        my Name is Jörn, I am from Germany and I am a Student. I currently learn <br>
+        Python and JavaScript. You can see my Projects <a href="projects.html">here</a>. <br>
+        I also like to play games in my free Time for example: Minecraft (5000+h), <br>
+        Valorant (breaks me everytime), Rust (232h), Satisfactory (120h) , Bloons TD6 (126h). <br>
+        I also like to go for a walk with my dogs, go to the gym and sleeping :)
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        More on this site soon
+      </p>
 
 
-</body>
-
-
-
+    </div>
+  </body>
 </html>
