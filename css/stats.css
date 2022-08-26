@@ -17,6 +17,9 @@ body {
   padding-top: 1%;
   list-style-type: none;
 }
-div p {
-  margin: 3% 25% 0px 25%;
+h3 {
+  margin: 3% 35% 0px 35%;
+}
+.stats {
+  margin: 3% 30% 0 35%;
 }

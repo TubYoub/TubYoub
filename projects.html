@@ -1,59 +1,68 @@
 <!doctype html>
-<html class="no-js" lang="">
 
-<head>
-  <meta charset="utf-8">
-  <title>-/TubYoub\-</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>-/TubYoub\-</title>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/projects.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+    <script src="/js/index.js"></script>
 
-  <script src="/js/index.js"></script>
+  </head>
+  <body>
+  <div class="wrapper" id="nav">
+    <div class="item">
+      <li class="text"><a href="index.html "><img src="/img/house.png" height="30" alt="Start"></a></li>
+    </div>
+    <div class="item">
+      <li class="text"><a href="projects.html"><img src="/img/project.png" height="30" alt="Prjects"></a></li>
+    </div>
+    <div class="item">
+      <li class="text"><a href="stats.html"><img src="/img/stats.png" height="30" alt="Stats"></a></li>
+    </div>
+    <div class="item">
+      <li class="text"><a href="https://search.tubyoub.de"><img src="/img/searchicon.png" height="30" alt="search.tubyoub.de"></a></li>
+    </div>
+  </div>
+  <script>
+    const dragArea = document.querySelector(".wrapper");
+    new Sortable(dragArea, {
+      animation: 350
+    });
+  </script>
+    <h3>Here you can find my ongoing Projects:</h3>
+    <ul>
 
-</head>
-
-<body>
-
-  <ul id="nav">
-    <li><a href="index.html "><img src="/img/house.png" height="30"></a></li>
-    <li><a href="projects.html"><img src="/img/project.png" height="30"></a></li>
-    <li><a href="contactme.html"><img src="/img/discord.png" height="30"></a></li>
-    <li><a href="https://search.tubyoub.de"><img src="/img/searchicon.png" height="30"></a></li>
-  </ul>
-  <h3>Here you can find my ongoing Projects:</h3>
-  <ul>
-
-    <p><h4>1. <a href="https://github.com/TubYoub/HyDRP">HyDRP</a></h4> <br>
-    <a href="https://github.com/TubYoub/HyDRP">HyDRP</a> is a Console Program which i made with Python. I checks your Game stats on the Minecraft Server Network <a href="https://hypixel.net/">Hypixel</a>. <br>
-      It displays the stats from the Minigame you are currently playing in your Discord Status. <br>
-      <br>
-      TODO: <br>
-      <ul>
-        <li>Support More Minigames</li>
-        <li>Support more Stats</li>
-        <li>Save Stats to file</li>
-        <li>More customization</li>
-        <li>Automatic Updates</li>
+      <p><h4>1. <a href="https://github.com/TubYoub/HyDRP">HyDRP</a></h4> <br>
+      <a href="https://github.com/TubYoub/HyDRP">HyDRP</a> is a Console Program which i made with Python. I checks your Game stats on the Minecraft Server Network <a href="https://hypixel.net/">Hypixel</a>. <br>
+        It displays the stats from the Minigame you are currently playing in your Discord Status. <br>
         <br>
-      </ul>
-    Give me ur Ideas via <a href="https://github.com/TubYoub">GitHub</a> or Discord (TubYoub#0069)
-  </ul>
-  </p>
-  <ul>
-    <p><h4>2. Own instance of <a href="https://github.com/searxng/searxng">SearXNG</a></h4> <br>
-    <a href="https://github.com/searxng/searxng">SearXNG</a> Is a Fork of  <a href="https://github.com/searx/searx">Searx</a> It is an Open Source Search Engine which is for more Privacy. <br>
-    It can search up to 70 of the most popular Search Engines at a time and displays the search results. <br>
-    For every Search SearXNG will make a new Profile so search Engines such as Google wont track you. <br>
-    If you wanna use it its the Blue Search Icon in the Menu on Top. Or you click this <a href="https://search.tubyoub.de">link</a>
-    <br>
-  </ul>
-  </p>
-</ul>
-</body>
-
-
-
+        TODO: <br>
+        <ul>
+          <li>Support More Minigames</li>
+          <li>Support more Stats</li>
+          <li>Save Stats to file</li>
+          <li>More customization</li>
+          <li>Automatic Updates</li>
+          <br>
+        </ul>
+      Give me ur Ideas via <a href="https://github.com/TubYoub">GitHub</a> or Discord (TubYoub#0069)
+    </ul>
+    </p>
+    <ul>
+      <p><h4>2. Own instance of <a href="https://github.com/searxng/searxng">SearXNG</a></h4> <br>
+      <a href="https://github.com/searxng/searxng">SearXNG</a> Is a Fork of  <a href="https://github.com/searx/searx">Searx</a> It is an Open Source Search Engine which is for more Privacy. <br>
+      It can search up to 70 of the most popular Search Engines at a time and displays the search results. <br>
+      For every Search SearXNG will make a new Profile so search Engines such as Google wont track you. <br>
+      If you wanna use it its the Blue Search Icon in the Menu on Top. Or you click this <a href="https://search.tubyoub.de">link</a>
+      <br>
+    </ul>
+    </p>
+    </ul>
+  </body>
 </html>

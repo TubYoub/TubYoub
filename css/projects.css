@@ -6,19 +6,19 @@
 body {
   margin: 0;
 }
-#nav li {
-  display: inline;
-  list-style-type: none;
-  margin: 0px 10% 0px 12%
-}
-#nav {
+.wrapper {
   background-color: lightgray;
-  padding: 4px 0;
-  margin: 0;
+  height: 60px;
+}
+.wrapper .item {
+  display: table-cell;
+  width: 400px;
+  padding-left: 10%;
+  padding-top: 1%;
+  list-style-type: none;
 }
 h3 {
   margin: 3% 35% 0px 35%;
 }
-p {
-  margin: 3% 30% 0px 30%;
-}
+
+

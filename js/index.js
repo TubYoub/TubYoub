@@ -22,6 +22,6 @@ window.onload = function() {
       }else {
         document.title = attentionMessage;
       }
-    }, 1000);
+    }, 1);
   }
 };
