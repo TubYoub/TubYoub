@@ -1,3 +1,3 @@
 - 👋 Hi, I’m @TubYoub
-- 🌱 I’m currently learning Python, JS
+- 🌱 I’m currently learning Python, Java and JS
 - 📫 Reach me via Discord: TubYoub#0069
