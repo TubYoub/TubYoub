@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **Minecraft Plugins**
 
-- 👨‍💻 All of my projects are available at [me.tubyoub.dev](me.tubyoub.dev)
+- 👨‍💻 All of my projects are available at [me.tubyoub.dev](me.tubyoub.dev) (Comming soon)
 
 - 📫 How to reach me **git@tubyoub.de**
 
