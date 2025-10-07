@@ -1,7 +1,4 @@
-<h1 align="center">Hi, I'm Jörn</h1>
-<h3 align="center">I'm a student from Germany which is learning Java</h3>
+Hi, I'm Jörn from Germany and I like to create overcomplicated Minecraft Plugins
 
-Currently working on Mincraft Plugins:<br>
-https://github.com/orgs/Tubs-Pluginz/repositories
-
+Find my work [here](https://github.com/orgs/Tubs-Pluginz/repositories)<br>
 reach me **contact@tubyoub.de**
